@@ -10,8 +10,9 @@
     <?php
     date_default_timezone_set("Asia/Calcutta");
     
-    $today = date("dmhi");
+    
     while(1){
+        $today = date("dmhi");
    echo $today;
     echo "<h2>Date & Time</h2>";
     $Datetime = 1003;
